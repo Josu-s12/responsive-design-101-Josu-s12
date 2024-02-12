@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%); /* Fondo con el color anterior */
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: white; /* Fondo blanco para el contenedor */
+    padding: 2rem; /* Agregamos espacio alrededor del contenedor */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    display: block;
+    border-radius: 10px; /* Borde suave y redondeado */
+    margin-bottom: 2rem;
+}
+
+.main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: white; /* Fondo blanco para el título */
+    padding: 1rem; /* Añadimos espacio alrededor del título */
+    border-radius: 10px; /* Borde suave y redondeado */
+}
+
+h2, h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: white; /* Fondo blanco para los títulos */
+    padding: 1rem; /* Añadimos espacio alrededor de los títulos */
+    border-radius: 10px; /* Borde suave y redondeado */
+}
+
+p, ul, ol, li {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Borde suave y redondeado */
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.second-section {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5rem;
+    border-radius: 10px; /* Borde suave y redondeado */
+}
+
+.second-section ul {
+    list-style: none;
+}
+
+.third-section ul {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; /* Fondo blanco para la tabla */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+th {
+    background-color: hsl(330, 100%, 98%);
+}
+
+/* Media queries para diseño responsivo */
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem; /* Ajustamos el padding para dispositivos móviles */
+    }
+
+    .main {
+        padding: 1rem; /* Ajustamos el padding para dispositivos móviles */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reducimos el tamaño del título para dispositivos móviles */
+        padding: 0.5rem; /* Ajustamos el padding para dispositivos móviles */
+    }
+
+    h2, h3 {
+        font-size: 1.25rem; /* Reducimos el tamaño de los títulos para dispositivos móviles */
+        padding: 0.75rem; /* Ajustamos el padding para dispositivos móviles */
+    }
+
+    p, ul, ol, li {
+        font-size: 0.875rem; /* Reducimos el tamaño del texto para dispositivos móviles */
+        padding: 1rem; /* Ajustamos el padding para dispositivos móviles */
+    }
+
+    .image-container img {
+        margin-bottom: 1rem; /* Reducimos el espacio entre la imagen y otros elementos para dispositivos móviles */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container {
+        max-width: 768px; /* Ancho máximo para tabletas */
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        max-width: 1200px; /* Ancho máximo para computadoras */
+    }
+}
