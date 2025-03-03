@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
     <title>Frontend Mentor | Recipe page</title>
     <style>
         .attribution {
             font-size: 11px;
             text-align: center;
+            margin-bottom: 10px;
         }
         .attribution a {
             color: hsl(228, 45%, 44%);
@@ -24,7 +31,20 @@
 
     <h1>Simple Omelette Recipe</h1>
 
-    <div class="section">
+    <div class="description">
+        <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+    </div>
+
+    <div class="preparation-time">
+        <h2>Preparation time</h2>
+        <ul>
+            <li><span>Total</span>: Approximetly 10 minutes</li>
+            <li><span>Preparation</span>: 5 minutes</li>
+            <li><span>cooking</span>: 5 minutes</li>
+        </ul>
+    </div>
+
+    <div class="ingredients">
         <h2>Ingredients</h2>
         <ul>
             <li>2-3 large eggs</li>
@@ -35,7 +55,7 @@
         </ul>
     </div>
 
-    <div class="section">
+    <div class="instructions">
         <h2>Instructions</h2>
         <ol>
             <li><span>Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
@@ -47,37 +67,34 @@
         </ol>
     </div>
 
-    <div class="section">
+    <div class="nutrition">
         <h2>Nutrition</h2>
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
         <table>
             <tr>
                 <td>Calories</td>
-                <td>277kcal</td>
+                <td><span>277kcal</span></td>
             </tr>
             <tr>
                 <td>Carbs</td>
-                <td>0g</td>
+                <td><span>0g</span></td>
             </tr>
             <tr>
                 <td>Protein</td>
-                <td>20g</td>
+                <td><span>20g</span></td>
             </tr>
             <tr>
                 <td>Fat</td>
-                <td>22g</td>
+                <td><span>22g</span></td>
             </tr>
         </table>
     </div>
 
-    <div class="first-section">
-        <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
-    </div>
 
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
-        <a href="#">Your Name Here</a>.
-    </div>
 </main>
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+    <a href="#">Josue Sarmiento</a>.
+</div>
 </body>
 </html>
