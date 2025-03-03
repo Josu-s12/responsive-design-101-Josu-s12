@@ -10,6 +10,10 @@ body{
     background: #f3e6d8;
 }
 
+.movil{
+    display: none;
+}
+
 .main{
     background: white;
     width: 30%;
@@ -214,9 +218,16 @@ h1{
 }
 
 @media (max-width: 480px) {
+    .movil{
+        display: block;
+    }
+    .image-container{
+        display: none;
+    }
     .main {
         width: 100%;
         margin-top: 0;
-        padding: 100px;
+        padding: 30px;
+        border-radius: 0;
     }
 }
